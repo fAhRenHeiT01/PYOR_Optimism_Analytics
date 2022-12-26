@@ -1,0 +1,11 @@
+{
+    "debug": false,
+    "app":{
+        "name": "PYOR_Backend",
+        "SECRET_KEY": "Good to know about PYOR",
+        "cryptopanic_token": "f664c76170f442b15901f2d845bb56808fe7d36c",
+        "transaction_token": "5bb4c2f3-c21b-4d1a-ad24-7081187046b3",
+        "price_token": "e5e2d4fa-d6ba-4ebb-bbf0-5fa57b98f8a2",
+        "port": 5000
+    }
+}

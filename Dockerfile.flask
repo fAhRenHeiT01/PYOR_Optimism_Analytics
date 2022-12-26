@@ -1,0 +1,11 @@
+FROM python:3.9
+WORKDIR /
+
+COPY flask_src/ ./flask_src/
+WORKDIR /flask_src
+RUN pip install -r requirements.txt
+ENV FLASK_DEBUG production
+
+EXPOSE 5000
+CMD ["gunicorn", "-b", ":5000", "app:app"]
+

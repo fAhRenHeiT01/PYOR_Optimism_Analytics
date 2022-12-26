@@ -1,0 +1,15 @@
+services:
+  flask-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.flask
+    image: flask-app
+    ports:
+      - "5000:5000"
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.react
+    image: react-app
+    ports:
+      - "3000:80"
