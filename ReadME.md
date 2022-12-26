@@ -43,3 +43,10 @@ Two charts are prepared:
 ## Serving
 
 React Frontend App default server binds at `localhost:3000`
+
+
+# Queries
+
+Queries being used for getting data from `flipsidecrypto.xyz` are present in `queries` folder for reference:
+
+`pyor_optimism_price_tracking.sql` and `pyor_optimism_daily_transaction_count.sql`
